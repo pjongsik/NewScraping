@@ -1,0 +1,91 @@
+[2022-09-26 17:44:21.463] ===> keyword check <===
+[2022-09-26 17:44:21.470]  [SKT딜] 나이키 CFT 조거팬츠 2칼라 (29,710원/무료) https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&page=1&divpage=74&no=434895 - 22.09.26 17:41:48
+[2022-09-26 17:44:21.471]  [쿠팡/와우회원] 삼성전자 Z플립4 256G 자급제 (1,120,020원/와우무료배송) https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&page=1&divpage=74&no=434893 - 22.09.26 17:36:39
+[2022-09-26 17:44:21.472]  [네이버]28일 라이브쇼핑 요기요 1만원/3만원/5만원권 7% 할인 + 3% 적립 라방 잡혔네요 (9300원/무료) https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&page=1&divpage=74&no=434892 - 22.09.26 17:33:24
+[2022-09-26 17:44:21.473]  [11번가] ASUS TUF FX506HM-HN058 11세대 i7 RTX3060 (카드 최대할인 시 894,040원 / 무료배송) https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&page=1&divpage=74&no=434891 - 22.09.26 17:29:16
+[2022-09-26 17:44:21.475]  [GS샵] 솔가 네이처바이트 종합비타민 90정(3개월)(41,710원/무료) https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&page=1&divpage=74&no=434890 - 22.09.26 17:25:29
+[2022-09-26 17:44:21.476]  [마켓컬리] 셀리그램 리페어 샴푸 400g (9,900원/3,000원) https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&page=1&divpage=74&no=434886 - 22.09.26 16:35:19
+[2022-09-26 17:44:21.477]  [W컨셉] 갤럭시 버즈2 프로 (219,000원/무료) https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&page=1&divpage=74&no=434885 - 22.09.26 16:27:55
+[2022-09-26 17:44:21.478] keyword : 갤럭시
+[2022-09-26 17:44:21.479]  [W컨셉] 갤럭시 버즈2 프로 (219,000원/무료) https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&page=1&divpage=74&no=434885 - 22.09.26 16:27:55
+[2022-09-26 17:44:22.793]  [하우스앱] LG디오스 매직스페이스 냉장고 S834S20Q 826L(1,029,000원) https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&page=1&divpage=74&no=434883 - 22.09.26 16:21:41
+[2022-09-26 17:44:22.794]  [위메프]쫀득쫀득 1등급 한돈 생오겹살 600g(13900원/무배) https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&page=1&divpage=74&no=434882 - 22.09.26 16:03:41
+[2022-09-26 17:44:22.795]  [11번가 라이브] ASUS TUF Gaming FX507ZC-HN075 (최종가 976,650원 / 무료배송) 및 그외 2종 https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&page=1&divpage=74&no=434881 - 22.09.26 16:03:00
+[2022-09-26 17:44:22.796]  [쿠팡] 코코도르 우드볼 차량용디퓨저 50ml 2개입 (8,930원 / 무료) https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&page=1&divpage=74&no=434880 - 22.09.26 15:43:46
+[2022-09-26 17:44:22.798]  [G마켓] CGN 오메가 800 피쉬오일 30정 x 3개 (30,460/무료) https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&page=1&divpage=74&no=434879 - 22.09.26 15:15:06
+[2022-09-26 17:44:22.799]  [11번가] 허쉬 초콜릿칩 모찌쿠키 240g 12개입 10박스 (30,470원/무료) https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&page=1&divpage=74&no=434877 - 22.09.26 15:13:46
+[2022-09-26 17:44:22.800]  [위메프]샤오미 로봇청소기 러이드스토 R1 8세대 클린스테이션 (530,850/무배) https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&page=1&divpage=74&no=434876 - 22.09.26 15:06:09
+[2022-09-26 17:44:22.801]  (쿠팡) 제니베이커리 스마트 베어 버터쿠키 [25,690원 무배] https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&page=1&divpage=74&no=434875 - 22.09.26 14:59:27
+[2022-09-26 17:44:22.802]  [네이버]제이씨현 ONE X PLAYER 1S 원엑스플레이어 메타덱(1,290,000원/무료배송) https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&page=1&divpage=74&no=434873 - 22.09.26 14:51:03
+[2022-09-26 17:44:22.802]  [보고] [신한#마이샵] 밥스누 서울대 오리지널 약콩두유 1박스 24입 (청구할인가 16,900원/무배) https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&page=1&divpage=74&no=434872 - 22.09.26 14:49:10
+[2022-09-26 17:44:22.803]  [위메프] 롯데리아 1만원권 13% (8,700원/무료) https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&page=1&divpage=74&no=434871 - 22.09.26 14:48:14
+[2022-09-26 17:44:22.804]  [프레시지] 네고왕 테이스티나인 고기 2종 10팩 (18,900원) https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&page=2&divpage=74&no=434870 - 22.09.26 14:13:21
+[2022-09-26 17:44:22.804]  [네이버] 웍스 충전전동드라이버 WX240 (24,900/3,000) https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&page=2&divpage=74&no=434869 - 22.09.26 14:08:05
+[2022-09-26 17:44:22.805]  [네이버]쇼핑라이브 테라건프로4세대(519,350/무료) https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&page=2&divpage=74&no=434867 - 22.09.26 13:38:17
+[2022-09-26 17:44:22.806]  [G마켓] 플레이스테이션5 디스크 피파 23 에디션 (760,800원/무료) https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&page=2&divpage=74&no=434865 - 22.09.26 13:28:28
+[2022-09-26 17:44:22.806]  [Tdeal]오뚜기컵밥280g 12종 중 2종10개선택(무료/19350원) https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&page=2&divpage=74&no=434864 - 22.09.26 12:48:50
+[2022-09-26 17:44:22.807]  [롯데온] 인디안 베이직 브이넥 니트 가디건 (35,860원/무료) https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&page=2&divpage=74&no=434863 - 22.09.26 12:34:02
+[2022-09-26 17:44:22.808] 인기 [농사랑] 굿뜨래왕도쌀10kg (23,800원/무료) https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&page=2&divpage=74&no=434862 - 22.09.26 12:29:50
+[2022-09-26 17:44:22.808] 인기 [위메프] 신지모루 1+1 투명 케이스 3종 A90,lg다수,아이폰14등 (3,900 ~ / 무료 ) https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&page=2&divpage=74&no=434861 - 22.09.26 12:26:09
+[2022-09-26 17:44:22.809] keyword : 아이폰
+[2022-09-26 17:44:22.810] 인기 [위메프] 신지모루 1+1 투명 케이스 3종 A90,lg다수,아이폰14등 (3,900 ~ / 무료 ) https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&page=2&divpage=74&no=434861 - 22.09.26 12:26:09
+[2022-09-26 17:44:23.310] 인기 [나의비타민마켓] 스팀 닭가슴살 100g 4종 20팩 (22,900/무료) https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&page=2&divpage=74&no=434859 - 22.09.26 12:19:15
+[2022-09-26 17:44:23.312]  [G마켓] LG 디오스 식기세척기 DUB22WA + 전기레인지 BEI3GQT2 (1,479,000원/무료) https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&page=2&divpage=74&no=434858 - 22.09.26 12:06:48
+[2022-09-26 17:44:23.313]  [네이버] 헉슬리 슬립 마스크팩 1+1 (9,900/3,000) https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&page=2&divpage=74&no=434857 - 22.09.26 11:58:56
+[2022-09-26 17:44:23.315]  [vogo] 사세 버팔로 플러스 윙1 kg+ 봉 1kg(19,900/무료) https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&page=2&divpage=74&no=434856 - 22.09.26 11:58:27
+[2022-09-26 17:44:23.317]  [옥션] 해주냉면 4인분 9,900원+절임무증정 (무료배송) https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&page=2&divpage=74&no=434855 - 22.09.26 11:31:06
+[2022-09-26 17:44:23.318] 인기 [11번가] 신안 활 왕새우 1kg 20~25미(24,200원/무료) https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&page=2&divpage=74&no=434854 - 22.09.26 11:28:23
+[2022-09-26 17:44:23.320]  [옥션] 페이즈기프트 외식상품권 5만원 (44,500/무료) https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&page=2&divpage=74&no=434853 - 22.09.26 11:26:31
+[2022-09-26 17:44:23.321]  [교보문고] sam 10 Plus 42주년 기념판 (369,000/무료) https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&page=2&divpage=74&no=434852 - 22.09.26 11:23:23
+[2022-09-26 17:44:23.323]  [멸치쇼핑] 울산 반구동 가마실 감자탕 5kg (19120원/무배) https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&page=2&divpage=74&no=434851 - 22.09.26 11:22:33
+[2022-09-26 17:44:23.325]  [롯데온] 생물 흰다리 새우 1kg 27미내외(23,900원/3,000원) https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&page=2&divpage=74&no=434849 - 22.09.26 11:13:15
+[2022-09-26 17:44:23.327]  [네이버] MS Xbox 시리즈 X / Xbox 시리즈 S (네이버 멤버십+ 최대 517,840원/ 무료 배송) https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&page=2&divpage=74&no=434848 - 22.09.26 11:12:06
+[2022-09-26 17:44:23.330]  [11번가]22년형 삼성 비스포크 제트 220W VS20B956AXE (531,050원 / 무료) https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&page=2&divpage=74&no=434847 - 22.09.26 11:10:28
+[2022-09-26 17:44:23.332]  [멸치쇼핑]함평 나비 구운란 중란 60구(8,650/무배) https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&page=3&divpage=74&no=434845 - 22.09.26 11:07:08
+[2022-09-26 17:44:23.334]  [위메프]그린핑거 힘센보습 인텐시브 대용량 크림 500g 2개(23,850원/무배) https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&page=3&divpage=74&no=434844 - 22.09.26 10:58:18
+[2022-09-26 17:44:23.335]  [쿠팡] 벨지안 카라멜라이즈 비스킷 1.8kg (11,100원/로켓배송) https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&page=3&divpage=74&no=434843 - 22.09.26 10:53:48
+[2022-09-26 17:44:23.337]  [지마켓] 삼성 마이크로 SD MB-MJ128KA/APC 블랙박스 CCTV 바디캠 SD카드 (21400원/스클 20810원/무배) https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&page=3&divpage=74&no=434842 - 22.09.26 10:48:13
+[2022-09-26 17:44:23.338]  [11번가] 삼양라면 20EA (10,980,무료) https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&page=3&divpage=74&no=434841 - 22.09.26 10:45:34
+[2022-09-26 17:44:23.340]  [그립] 롯데마트 5만원 잔액관리형 (45000/온라인 전송) https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&page=3&divpage=74&no=434840 - 22.09.26 10:40:35
+[2022-09-26 17:44:23.341]  [11번가] 푸마 셋업 상하의 남녀 2종세트 (45140원/무료) https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&page=3&divpage=74&no=434838 - 22.09.26 10:26:07
+[2022-09-26 17:44:23.342]  [11번가아마존] Stanley 아이스플로우 64oz 빨대포함 그린 (50,890원/무배) https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&page=3&divpage=74&no=434837 - 22.09.26 10:18:35
+[2022-09-26 17:44:23.343]  [쿠팡 ] 지큐랩 100억 생유산균 골드[쿠팡 회원 21,280/무료배송] https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&page=3&divpage=74&no=434836 - 22.09.26 10:09:15
+[2022-09-26 17:44:23.344]  [G마켓/옥션] 에이수스 ROG 게이밍 백팩 ASUS BP1501G 외 (13,350원/무료) https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&page=3&divpage=74&no=434835 - 22.09.26 10:04:18
+[2022-09-26 17:44:23.345]  [롯데온] 칼로바이 프로틴 파워쉐이크 10개/13,190/무료배송 https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&page=3&divpage=74&no=434834 - 22.09.26 10:01:56
+[2022-09-26 17:44:23.345]  [롯데온] 필라델피아 치즈케이크 794g 1+1 (22,660원) /무료배송 https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&page=3&divpage=74&no=434833 - 22.09.26 09:42:11
+[2022-09-26 17:44:23.346]  [위메프] 밀레 의류 시즌모음전 / Lover boi 맨투맨 티셔츠 LTMFT001 W (21,600/무료) https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&page=3&divpage=74&no=434831 - 22.09.26 09:32:15
+[2022-09-26 17:44:23.347]  [쿠팡]사조 전자렌지용 팝콘 달콤한맛 12개 (8800/로켓배송) https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&page=3&divpage=74&no=434830 - 22.09.26 09:27:31
+[2022-09-26 17:44:23.348]  [라스트오더] 크런치초콜릿 갈릭브레드 20개 (5,400/무료) https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&page=3&divpage=74&no=434828 - 22.09.26 09:17:27
+[2022-09-26 17:44:23.348]  [11번가] 21년산 해온찬미쌀 20kg 상등급 혼합 (35910원) 무료 https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&page=3&divpage=74&no=434827 - 22.09.26 08:48:22
+[2022-09-26 17:44:23.349] 인기 [롯데온] 락토핏 골드5X 4통+엘포5,000(39,530원/무료) https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&page=3&divpage=74&no=434826 - 22.09.26 08:13:52
+[2022-09-26 17:44:23.350]  [G마켓]아디다스 롱드로즈[8940/무배] https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&page=3&divpage=74&no=434825 - 22.09.26 08:13:18
+[2022-09-26 17:44:23.351]  [갤러리아백화점] 써코니 재즈 코트 가죽스니커즈 (26100/무료) https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&page=3&divpage=74&no=434824 - 22.09.26 07:54:55
+[2022-09-26 17:44:23.352]  [티몬] 롯데 백화점 상품권 (96500, 3000) https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&page=4&divpage=74&no=434822 - 22.09.26 06:51:37
+[2022-09-26 17:44:23.352] 인기 [G마켓,옥션] 버거킹 콤보 최대 51% 할인 (3180원~8710원) https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&page=4&divpage=74&no=434819 - 22.09.26 01:02:21
+[2022-09-26 17:44:23.353]  [아모레퍼시픽몰] 메종키츠네 패딩백 세트(72,000원 / 무료) 쿠폰가 68,400원 (삼성카드는 63,400원) https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&page=4&divpage=74&no=434817 - 22.09.26 00:39:06
+[2022-09-26 17:44:23.354]  [옥션] 혼합잡곡 17곡 10kg (16,900원/무료) https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&page=4&divpage=74&no=434816 - 22.09.26 00:15:08
+[2022-09-26 17:44:23.355]  [위메프] 경북 홍로 사과 5kg (8,900/무료) https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&page=4&divpage=74&no=434815 - 22.09.26 00:14:49
+[2022-09-26 17:44:23.356]  [11번가] 해피콜 컴포트 다이아몬드 후라이팬 2종세트 외 (34,900원/무배) https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&page=4&divpage=74&no=434814 - 22.09.26 00:13:59
+[2022-09-26 17:44:23.356]  [보고]사조 후랑크 핫바 12개 (6,900/0) https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&page=4&divpage=74&no=434812 - 22.09.26 00:08:43
+[2022-09-26 17:44:23.357]  [11번가] 메가박스 1인권 외 (8900~/무료) https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&page=4&divpage=74&no=434810 - 22.09.26 00:03:55
+[2022-09-26 17:44:23.358]  [11번가] 21년산 전북 신동진쌀 20kg (41,990원/무료배송) https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&page=4&divpage=74&no=434809 - 22.09.25 23:49:10
+[2022-09-26 17:44:23.359] 인기 [무신사] 반스 컴피쿠시 에라 페이즐리 2종 (29,900/무료) https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&page=4&divpage=74&no=434808 - 22.09.25 23:12:55
+[2022-09-26 17:44:23.359]  [Ssg]하겐다즈 파인트 473ml (8100/3000 4만원이상시 무료배송) https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&page=4&divpage=74&no=434806 - 22.09.25 22:29:24
+[2022-09-26 17:44:23.360] 인기 [11번가 아마존] 쿠폰 소진용 템및 가격저려미 (다양/무료) https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&page=4&divpage=74&no=434805 - 22.09.25 21:46:06
+[2022-09-26 17:44:23.361] 인기 [배달의민족] 쌀통닭 2만 원 권(14,000원/무료) https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&page=4&divpage=74&no=434804 - 22.09.25 21:42:41
+[2022-09-26 17:44:23.362]  [롯데온] 퓨어수 생수 500미리 40개 ( 7,920 / 무) 후기작성시 엘포 3천점 https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&page=4&divpage=74&no=434803 - 22.09.25 21:38:50
+[2022-09-26 17:44:23.363] 인기 [vogo] LG 울트라북 엣지 라이젠7, 16인치 (959,000원/무배) https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&page=4&divpage=74&no=434802 - 22.09.25 20:38:02
+[2022-09-26 17:44:23.363]  [쿠팡] 필립스 에스프레스머신 ep1200 (290,670/무배) https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&page=4&divpage=74&no=434801 - 22.09.25 20:37:02
+[2022-09-26 17:44:23.364] 인기 [G마켓 / 옥션] 윈도우10 home fpp usb (119,000/무료) https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&page=5&divpage=74&no=434800 - 22.09.25 20:12:59
+[2022-09-26 17:44:23.365]  [네이버]쇼핑라이브 세척사과 4.5kg (15,900원/무료) https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&page=5&divpage=74&no=434799 - 22.09.25 20:04:01
+[2022-09-26 17:44:23.366]  [네이버쇼핑] 크롬캐스트4 (54,500/무료), 구글 네스트 (125,000/무료) https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&page=5&divpage=74&no=434796 - 22.09.25 19:47:40
+[2022-09-26 17:44:23.366]  [오늘의집] [주말특가] 2WAY 블루투스 라디오 벽걸이 스탠드 겸용 CD플레이어 + 영어동요CD증정 (59,800/무료) https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&page=5&divpage=74&no=434795 - 22.09.25 18:24:02
+[2022-09-26 17:44:23.367]  [카카오톡딜]한돈한우 직화/직화치즈 떡갈비스테이크160g 10팩(19,900/무료) https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&page=5&divpage=74&no=434790 - 22.09.25 17:07:19
+[2022-09-26 17:44:23.368]  [11번가]버거킹 치즈와퍼주니어+콜라R(3100원) https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&page=5&divpage=74&no=434789 - 22.09.25 16:59:02
+[2022-09-26 17:44:23.369] 인기 [11마존] TRUE LEMON 워터인헨서 벌크 팩 (0.03온스) 500개입 (30,550원/무료배송) https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&page=5&divpage=74&no=434787 - 22.09.25 16:44:34
+[2022-09-26 17:44:23.369] 인기 [옥션] 투게더 아이스크림 4가지맛 선택 (17390/무료배송) https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&page=5&divpage=74&no=434786 - 22.09.25 16:23:02
+[2022-09-26 17:44:23.370]  [쿠팡] 핫식스 더킹 제로 에너지 드링크 355ml 24개 (19,820/무료) https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&page=5&divpage=74&no=434785 - 22.09.25 16:17:57
+[2022-09-26 17:44:23.371]  [쿠팡] 농심 신라면 컵 65g 30개 (23,500원/로켓배송) https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&page=5&divpage=74&no=434784 - 22.09.25 16:05:53
+[2022-09-26 17:44:23.371]  [11마존]매달 쿠폰소진용 홍차 (11580/무료배송) https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&page=5&divpage=74&no=434782 - 22.09.25 14:55:17
+[2022-09-26 17:44:23.371]  [쿠팡]퀸001 울트라씬 콘돔 12개입x2개 (15,870/무료배송) 갑당 7,935원 https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&page=5&divpage=74&no=434781 - 22.09.25 14:49:49
+[2022-09-26 17:44:23.372] 인기 [vogo] 소화가 잘되는 우유 5종 외 멸균우유/허쉬/매일두유 24팩 모음 11900원 무배 https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&page=5&divpage=74&no=434777 - 22.09.25 14:14:52
