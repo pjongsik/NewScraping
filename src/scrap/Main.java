@@ -5,6 +5,7 @@ import java.io.PrintStream;
 import java.util.Date;
 import java.util.List;
 import java.util.TimeZone;
+import java.util.stream.Collectors;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
@@ -16,6 +17,7 @@ import org.openqa.selenium.remote.DesiredCapabilities;
 import Log.Log;
 import message.TelegramMessage;
 import process.DaumNew;
+import process.NaverNew;
 import process.PpumProcess;
 import process.WebChecker;
 import scheduler.Scheduler;
@@ -33,10 +35,13 @@ public class Main {
 		
 		
 		// daum news
-		daumNewsSearch(30);
+		//daumNewsSearch(30);
+		
+		// naver news
+		naverNewsSearch(30);
 		
 		// ppum
-		int pageCount = 5;
+		int pageCount = 7;
 		boolean oversea = true;
 		boolean searchAfterlastTime = false;
 		//ppumSearch(pageCount, oversea == false, searchAfterlastTime);
@@ -46,6 +51,7 @@ public class Main {
 		//String text = ScrapJsoup.parseHTMLData3();
 		
 		System.out.println("test");
+			
 		
 		
 	
@@ -179,8 +185,48 @@ public class Main {
 		String[] keywords = Keywords.get();
 		
 		Log.write("===> keyword check <===");
-		
+		String pre_title = ""; // 중복 방지
 		for (News data : list) {
+			
+			if (data.title.equals(pre_title))
+				continue;
+			
+			pre_title = data.title;
+			for (String keyword : keywords) {
+				if (data.getTitle().contains(keyword)) {
+					
+					Log.write("keyword : " + keyword);
+					Log.write(data.toString());
+					System.out.println("[keyword : " + keyword + "] --> " + data.toString());
+					
+					//TelegramMessage.send(data.toString());
+				}
+			}
+		}
+	}
+
+	
+
+	private static void naverNewsSearch(int pageCount) throws Exception {
+		
+		if (pageCount == 0)
+			 pageCount = 10;
+
+		//https://news.naver.com/main/main.naver?mode=LSD&mid=shm&sid1=101#&date=%2000:00:00&page=2
+
+		List<News> list = NaverNew.Scraping("LSD", "shm", "101", "", "", pageCount);
+		
+		String[] keywords = Keywords.get();
+		
+		Log.write("===> keyword check <===");
+		
+		String pre_title = ""; // 중복 방지
+		for (News data : list) {
+			
+			if (data.title.equals(pre_title))
+				continue;
+			
+			pre_title = data.title;
 			
 			for (String keyword : keywords) {
 				if (data.getTitle().contains(keyword)) {
@@ -195,4 +241,5 @@ public class Main {
 		}
 	}
 
+	
 }
