@@ -1,21 +1,8 @@
 package scrap;
 
-import java.io.File;
-import java.io.PrintStream;
-import java.util.Date;
 import java.util.List;
-import java.util.TimeZone;
-import java.util.stream.Collectors;
-
-import org.openqa.selenium.By;
-import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.WebElement;
-import org.openqa.selenium.phantomjs.PhantomJSDriver;
-import org.openqa.selenium.phantomjs.PhantomJSDriverService;
-import org.openqa.selenium.remote.DesiredCapabilities;
 
 import Log.Log;
-import message.TelegramMessage;
 import process.DaumNew;
 import process.NaverNew;
 import process.PpumProcess;
@@ -34,14 +21,15 @@ public class Main {
 		//System.setOut(outStream);
 		
 		
-		// daum news
-		//daumNewsSearch(30);
-		
+		// daum news	
+		//daumNewsSearch(30); 
+		//
 		// naver news
 		naverNewsSearch(30);
 		
-		// ppum
 		int pageCount = 7;
+		
+		
 		boolean oversea = true;
 		boolean searchAfterlastTime = false;
 		//ppumSearch(pageCount, oversea == false, searchAfterlastTime);
@@ -94,7 +82,7 @@ public class Main {
 					Log.write(data.toString());
 					System.out.println(">>>> [keyword : " + keyword + "] --> " + data.toString());
 					
-					TelegramMessage.send(data.toString());
+					//TelegramMessage.send(data.toString());
 				}
 			}
 		}

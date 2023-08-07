@@ -175,7 +175,9 @@ public class NaverNew {
 		title = title.trim();
 		title = title.replace("&#034;", "\"");
         title = title.replace("&#039;", "'");
-          
+        title = title.replace("&lt;", "<");
+        title = title.replace("&gt;", ">");
+        
 		return title;
 	}
 }
