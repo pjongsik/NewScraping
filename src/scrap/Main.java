@@ -1,5 +1,7 @@
 package scrap;
 
+import java.util.ArrayList;
+import java.util.Iterator;
 import java.util.List;
 
 import Log.Log;
@@ -15,43 +17,48 @@ public class Main {
 
 	public static void main(String[] args) throws Exception {
 		
-		// iquest web checker
-		//allWebChecker();
-		//PrintStream outStream = new PrintStream(new File("outFile.txt"));
-		//System.setOut(outStream);
-		
-		
-		// daum news	
-		//daumNewsSearch(30); 
-		//
-		// naver news
-		naverNewsSearch(30);
-		
-		int pageCount = 7;
-		
-		
-		boolean oversea = true;
-		boolean searchAfterlastTime = false;
-		//ppumSearch(pageCount, oversea == false, searchAfterlastTime);
-		//ppumSearch(pageCount, oversea, searchAfterlastTime == true);
-	
-		
-		//String text = ScrapJsoup.parseHTMLData3();
-		
-		System.out.println("test");
+		try {
+			// iquest web checker
+			//allWebChecker();
+			//PrintStream outStream = new PrintStream(new File("outFile.txt"));
+			//System.setOut(outStream);
 			
+			// daum news	
+			//daumNewsSearch(30);
+			//
+			// naver news
+			//naverNewsSearch(30);
+			
+			int pageCount = 15;
+			
+			
+			boolean oversea = true;
+			boolean searchAfterlastTime = false;
+			ppumSearch(pageCount, oversea == false, searchAfterlastTime);
+			ppumSearch(pageCount-13, oversea, searchAfterlastTime == true);
+			
+			//String text = ScrapJsoup.parseHTMLData3();
+			 
+			System.out.println("the end");
+			
+		} catch (Exception ex) {
 		
-		
-	
+			System.out.println(ex.getStackTrace()[0]);
+			System.out.println(ex.getMessage() );
+			//ex.printStackTrace();
+			
+		}
 	}
-	
-	
+
+
+
 	private static void dracoSearch() {
 		
 		String text = Scraping.Scrap("https://www.mir4draco.com/price");
 		
 		System.out.println(text);
 	}
+
 
 	/**
 	 * 뽐뿌확인
@@ -71,20 +78,31 @@ public class Main {
 		
 		System.out.println("===> keyword check <===");
 		Log.write("===> keyword check <===");
-		
+
+		List<Ppum> selectedList = new ArrayList<Ppum>();
 		for (Ppum data : list) {
 			//System.out.println(data.toString());
 			Log.write(data.toString());
 			for (String keyword : keywords) {
-				if (data.getSubject().contains(keyword)) {
-					
-					Log.write("keyword : " + keyword);
-					Log.write(data.toString());
-					System.out.println(">>>> [keyword : " + keyword + "] --> " + data.toString());
-					
+				if (data.getSubject().toLowerCase().contains(keyword)) {
+
+					if (selectedList.stream().filter(x -> x.getSubject().equals(data.getSubject())).count() > 0) {
+						selectedList.stream().filter(x -> x.getSubject().equals(data.getSubject())).forEach(x -> x.setKeyword(x.getKeyword() + ", " + keyword));
+					} else {
+						data.setKeyword(keyword);
+						selectedList.add(data);
+					}
 					//TelegramMessage.send(data.toString());
 				}
 			}
+		}
+
+		for (Ppum data : selectedList) {
+
+			//Log.write("keyword : " + keyword);
+			//Log.write(data.toString());
+			System.out.println("--> " + data.toString());
+
 		}
 	}
 

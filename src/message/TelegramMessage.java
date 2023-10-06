@@ -11,8 +11,8 @@ public class TelegramMessage {
 		boolean result = true;
         try
         {
-        	final String personal_key = "bot999783271:AAH-RWs1aqO1q0HmUrCKpJsrYLXgYM-uJrY";
-        	final String chat_id = "1124104280"; 
+        	final String personal_key = "bot6550822913:AAENPN8vuQI5htsZrZtDyDS3MDdstLjRZjk";
+        	final String chat_id = "6187003248"; 
         	
             // 주소 인코딩
             message = URLEncoder.encode(message, "UTF-8");

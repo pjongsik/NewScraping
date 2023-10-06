@@ -56,9 +56,13 @@ public class PpumProcess {
 
           // 제목
           final String startText = "<font class=list_title>";
-          final String startText_closed = "<font color=#ACACAC>";
+          final String startText_closed = "<font style='text-decoration:line-through;color:#ACACAC;'>";
           final String endText = "</font>";
 
+          // 쇼핑몰
+          final String startFaceText = "<span class=\"subject_preface\">";
+          final String endFaceText = "</span>";
+          
           // 등록시간
           final String startTime = "<td nowrap class='eng list_vspace' colspan=2  title=";
           final String endTime = "<nobr class='eng list_vspace'>";
@@ -117,8 +121,13 @@ public class PpumProcess {
 
               // 제목/시간
               temp = temp.substring(temp.indexOf(searchText) + searchText.length());
+              
+              // 
+              String title = temp.substring(0, temp.indexOf(endText));
+              title = title.replaceAll(startFaceText, "");
+              title = title.replaceAll(endFaceText, "");
               titleList.add(new Ppum(bigo
-                                          , temp.substring(0, temp.indexOf(endText))
+                                          , title //temp.substring(0, temp.indexOf(endText))
                                           , String.format("%s%s", "https://www.ppomppu.co.kr/zboard/", urlTemp)
                                           , temp.substring(temp.indexOf(startTime) + startTime.length() + 1, (temp.indexOf(startTime) + startTime.length() + 1) + ((temp.indexOf(endTime) - 3) - (temp.indexOf(startTime) + startTime.length() + 1)))
                                           , hot, pop, closed));
