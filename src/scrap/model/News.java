@@ -13,7 +13,16 @@ public class News {
     public String url;
     public String from;
     public String time;
-    
+	public String keyword;
+
+	public String getKeyword() {
+		return keyword;
+	}
+
+	public void setKeyword(String keyword) {
+		this.keyword = keyword;
+	}
+
 	public String getTitle() {
 		return title;
 	}
@@ -40,8 +49,12 @@ public class News {
 	}
 	
 	@Override
-	public String toString() {
-		return String.format("%s : %s [%s] - %s", title, from, time, url);
+	public String toString(){
+		if (keyword == null) {
+			return String.format("%s : %s [%s] - %s", title, from, time, url);
+		}else {
+			return String.format(" keyword [%s] --->  %s : %s [%s] - %s", keyword, title, from, time, url);
+		}
 	}
     
     

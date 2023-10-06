@@ -27,15 +27,15 @@ public class Main {
 			//daumNewsSearch(30);
 			//
 			// naver news
-			//naverNewsSearch(30);
+			naverNewsSearch(30);
 			
 			int pageCount = 15;
 			
 			
 			boolean oversea = true;
 			boolean searchAfterlastTime = false;
-			ppumSearch(pageCount, oversea == false, searchAfterlastTime);
-			ppumSearch(pageCount-13, oversea, searchAfterlastTime == true);
+			//ppumSearch(pageCount, oversea == false, searchAfterlastTime);
+			//ppumSearch(pageCount-13, oversea, searchAfterlastTime == true);
 			
 			//String text = ScrapJsoup.parseHTMLData3();
 			 
@@ -93,6 +93,7 @@ public class Main {
 						selectedList.add(data);
 					}
 					//TelegramMessage.send(data.toString());
+					//
 				}
 			}
 		}
@@ -113,7 +114,7 @@ public class Main {
 		
 		// 확인 간격 10분
 		int tenMinate = 1000 * 60 * 10;
-		
+
 		try {
 			while(true) {
 				WebChecker.allWebProcess();
@@ -126,9 +127,9 @@ public class Main {
 		}
 	}
 
-	
+
 	private static void ppomChecker() {
-		
+
 		int tenMinate = 1000 * 60 * 10;
 		
 		try {
@@ -225,7 +226,8 @@ public class Main {
 		String[] keywords = Keywords.get();
 		
 		Log.write("===> keyword check <===");
-		
+
+		List<News> selectedList = new ArrayList<News>();
 		String pre_title = ""; // 중복 방지
 		for (News data : list) {
 			
@@ -233,17 +235,29 @@ public class Main {
 				continue;
 			
 			pre_title = data.title;
-			
+
+
 			for (String keyword : keywords) {
+
 				if (data.getTitle().contains(keyword)) {
-					
-					Log.write("keyword : " + keyword);
-					Log.write(data.toString());
-					System.out.println("[keyword : " + keyword + "] --> " + data.toString());
+
+					if (selectedList.stream().filter(x -> x.getTitle().equals(data.getTitle())).count() > 0) {
+						selectedList.stream().filter(x -> x.getTitle().equals(data.getTitle())).forEach(x -> x.setKeyword(x.getKeyword() + ", " + keyword));
+					} else {
+						data.setKeyword(keyword);
+						selectedList.add(data);
+					}
+					//Log.write("keyword : " + keyword);
+					//Log.write(data.toString());
+					//System.out.println("[keyword : " + keyword + "] --> " + data.toString());
 					
 					//TelegramMessage.send(data.toString());
 				}
 			}
+		}
+
+		for (News data : selectedList) {
+			System.out.println(data.toString());
 		}
 	}
 
