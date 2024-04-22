@@ -50,26 +50,30 @@ public class PpumProcess {
      }
 	
 	public static List<Ppum> getPpumData(String text) {
-		
-		  final String hot_icon2 = "/images/menu/not_icon2.jpg";    // hot
-          final String pop_icon2 = "/images/menu/pop_icon2.jpg";    // 인기
 
-          // 제목
-          final String startText = "<font class=list_title>";
-          final String startText_closed = "<font style='text-decoration:line-through;color:#ACACAC;'>";
-          final String endText = "</font>";
+         //System.out.println(text);
+
+		  final String hot_icon2 = "/images/menu/hot_icon2.jpg";    // hot
+          final String pop_icon2 = "/images/menu/pop_icon2.jpg";    // 인기
+          final String end_icon = "/DQ_Revolution_BBS_New1/end_icon.PNG";   // 종결 
+          final String evnet_href = "href=\"/zboard/view.php"; // 이벤트 뷰페이지 바로가기
+
+          // 게시글 블록
+          final String startText = "<div class=\"baseList-box\">";
+          final String endText = "<td class='baseList-space baseList-views' colspan=2>";
 
           // 쇼핑몰
-          final String startFaceText = "<span class=\"subject_preface\">";
-          final String endFaceText = "</span>";
+          final String startFaceText = "<em class=\"baseList-head subject_preface\">";
+          final String endFaceText = "</em>";
           
           // 등록시간
-          final String startTime = "<td nowrap class='eng list_vspace' colspan=2  title=";
-          final String endTime = "<nobr class='eng list_vspace'>";
+          final String startTime = "<td class='baseList-space' colspan=2  title=\"";
+          final String endTime = "\" ><time class=";
 
 
           // 상세페이지 url
-          final String startUrl = "<a href=";
+          final String startUrl = "' href=";
+          final String endUrl = "\"  ><span>";
           
           //
           String temp = text;
@@ -81,57 +85,89 @@ public class PpumProcess {
           boolean pop = false;
           boolean closed = false;
 
+          int count = 0;
           List<Ppum> titleList = new ArrayList<Ppum>();
-          while (temp.indexOf(startText) > 0 || temp.indexOf(startText_closed) > 0)
+
+          while (temp.indexOf(startText) > -1 && temp.indexOf(endText) > -1)
           {
+
               hot = pop = closed = false;
               bigo = "";
 
               int startTextIndex = temp.indexOf(startText);
-              int closedTextIndex = temp.indexOf(startText_closed);
+              int endTextIndex =  temp.indexOf(endText);
 
-              //System.out.println("startTextIndex : " + String.valueOf(startTextIndex));
-              //System.out.println("closedTextIndex : " + String.valueOf(closedTextIndex));
-              
-              String searchText = startText;
-              if (startTextIndex < 0 || (closedTextIndex > 0 && closedTextIndex < startTextIndex))
-              {
-                  closed = true;
-                  searchText = startText_closed;
+              String textBlock = temp.substring(startTextIndex, endTextIndex);
+
+              if (textBlock.indexOf(evnet_href) > -1) {
+                  // 코드블럭에 이벤트 페이지 바로가기가 있는경우 리스트 종료
+                  break;
               }
+              
+              //System.out.println("textBlock : " + textBlock);
 
-              //System.out.println("closed : " + String.valueOf(closed));
-              //System.out.println("searchText : " + searchText);
-              
-              // url
-              urlTemp = temp.substring(0, temp.indexOf(searchText) - 4);
-              
-              
+              temp = temp.substring(endTextIndex + endText.length());
+
+
+              if (textBlock.indexOf(end_icon) > 0)
+                  closed = true;
+
               // 인기. 핫 확인
-              if (urlTemp.indexOf(hot_icon2) > 0)
+              if (textBlock.indexOf(hot_icon2) > 0)
                   hot = true;
-              else if (urlTemp.indexOf(pop_icon2) > 0)
+              else if (textBlock.indexOf(pop_icon2) > 0)
                   pop = true;
 
+              // url
+              if (textBlock.indexOf(startUrl) > -1) {
+                  urlTemp = textBlock.substring(textBlock.indexOf(startUrl));
+              } else {
+                  continue;
+              }
+
               // 바로가기 URL만 남김
-              urlTemp = urlTemp.substring(urlTemp.lastIndexOf(startUrl) + startUrl.length() + 1);
-              
-              //
+              urlTemp = urlTemp.substring(startUrl.length() + 1);
+              urlTemp = urlTemp.substring(0, urlTemp.indexOf(endUrl));
+
+              // 비고
               bigo = String.format("%s%s", closed ? "<종결>" : "", hot ? "[핫]" : pop ? "[인기]" : "");
 
-              // 제목/시간
-              temp = temp.substring(temp.indexOf(searchText) + searchText.length());
               
-              // 
-              String title = temp.substring(0, temp.indexOf(endText));
-              title = title.replaceAll(startFaceText, "");
-              title = title.replaceAll(endFaceText, "");
+              // 제목
+              String title;
+              if (textBlock.indexOf(startFaceText) > -1) {
+                  title = textBlock.substring(textBlock.indexOf(startFaceText), textBlock.indexOf("</span>"));
+                  title = title.replaceAll(startFaceText, "");
+                  title = title.replaceAll(endFaceText, "");
+              } else {
+
+                  if (textBlock.indexOf("<span>") > -1) {
+                      title = textBlock.substring(textBlock.indexOf("<span>"), textBlock.indexOf("</span>"));
+                      title = title.replaceAll("<span>", "");
+                  } else {
+                      // 종결 --> 해당글은 게시중단요청에 의해 블라인드 처리된 글입니다.
+                      continue;
+                  }
+              }
+
+              String time = textBlock.substring(textBlock.indexOf(startTime) + startTime.length(), textBlock.indexOf(endTime));
+
               titleList.add(new Ppum(bigo
                                           , title //temp.substring(0, temp.indexOf(endText))
+                                          , time
                                           , String.format("%s%s", "https://www.ppomppu.co.kr/zboard/", urlTemp)
-                                          , temp.substring(temp.indexOf(startTime) + startTime.length() + 1, (temp.indexOf(startTime) + startTime.length() + 1) + ((temp.indexOf(endTime) - 3) - (temp.indexOf(startTime) + startTime.length() + 1)))
                                           , hot, pop, closed));
-              
+
+//              System.out.println("===== start ==============================================");
+//              System.out.println("bigo : " + bigo);
+//              System.out.println("title : " + title);
+//              System.out.println("url : " + String.format("%s%s", "https://www.ppomppu.co.kr/zboard/", urlTemp));
+//              System.out.println("time : " + time);
+//              System.out.println("hot : " + hot);
+//              System.out.println("pop : " + pop);
+//              System.out.println("closed : " + closed);
+//
+//              System.out.println("===== end   ==============================================");
           }
 
           return titleList;

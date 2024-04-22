@@ -75,9 +75,9 @@ public class Ppum {
 	@Override
 	public String toString() {
 		if (keyword == null) {
-			return String.format("%s %s %s - %s", closed ? "종결" : hot ? "핫핫" : pop ? "인기" : "", subject, time, url);
+			return String.format("%s %s %s - %s", closed ? "종결" : hot ? "HOT" : pop ? "인기" : "", subject, time, url);
 		}else {
-			return String.format(" keyword [%s] ---> %s %s %s - %s", keyword == null ? "" : keyword, closed ? "종결" : hot ? "핫핫" : pop ? "인기" : "", subject, time, url);
+			return String.format(" keyword [%s] ---> %s %s %s - %s", keyword == null ? "" : keyword, closed ? "종결" : hot ? "HOT" : pop ? "인기" : "", subject, time, url);
 		}
 	}
 }

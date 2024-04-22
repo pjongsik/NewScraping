@@ -54,10 +54,10 @@ public class DaumNew {
             Log.write("page : " + page);
 
             // 경제 
-            //String url = String.format("https://news.daum.net/breakingnews/economic?page=%d", page);
+            String url = String.format("https://news.daum.net/breakingnews/economic?page=%d", page);
             
             // 최신
-            String url = String.format("https://news.daum.net/breakingnews/?page=%d", page);
+            //String url = String.format("https://news.daum.net/breakingnews/?page=%d", page);
             String text = Scraping.Scrap(url);
             while (text.indexOf(filter1) > 0)
             {

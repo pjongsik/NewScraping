@@ -177,7 +177,12 @@ public class NaverNew {
         title = title.replace("&#039;", "'");
         title = title.replace("&lt;", "<");
         title = title.replace("&gt;", ">");
-        
+        title = title.replace("&#8729;", "∙");
+        title = title.replace("&#8231;", "·");
+        title = title.replace("&#8943;", "⋯");
+        title = title.replace("&#160;", "...");
+
+
 		return title;
 	}
 }

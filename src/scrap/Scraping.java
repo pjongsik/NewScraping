@@ -29,8 +29,8 @@ public class Scraping {
 			HttpURLConnection conn = (HttpURLConnection) url.openConnection();
 			conn.setRequestMethod(MethodType.GET.toString());
 			
-			conn.setConnectTimeout(3000);
-			conn.setReadTimeout(3000);
+			conn.setConnectTimeout(10000);
+			conn.setReadTimeout(10000);
 			
 			 // 요청 방식 구하기
 	       // System.out.println("getRequestMethod():" + conn.getRequestMethod());
